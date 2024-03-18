@@ -5,6 +5,12 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    hour = int(input())
+
+    if hour < 12:
+        print("AM")
+    else:
+        print("PM")
 
     return
 

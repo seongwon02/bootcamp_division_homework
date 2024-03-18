@@ -5,6 +5,12 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    old = int(input())
+
+    if old >= 61:
+        print("DISCOUNT")
+    
+    print("BOARD")
 
     return
 

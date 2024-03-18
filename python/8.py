@@ -5,6 +5,16 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    num = int(input())
+
+    sum = 0
+    facto = 1
+    for i in range(1, num+1):
+        sum += i
+        facto *= i
+    
+    print(sum)
+    print(facto)
 
     return
 

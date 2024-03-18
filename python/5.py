@@ -5,6 +5,13 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    old = int(input())
+    height = int(input())
+
+    if old >= 14 or height >= 160:
+        print("X")
+    else:
+        print("O")
 
     return
 
